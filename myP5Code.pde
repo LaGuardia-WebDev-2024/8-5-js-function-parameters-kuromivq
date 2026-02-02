@@ -12,6 +12,12 @@ setup = function(){
   drawExtraDirt(230,190);
   drawExtraDirt(110,110);
   drawExtraDirt(330,50);
+  drawExtraDirt(350,350);
+
+  drawMole(200,180);
+  drawMole(70,100);
+  drawMole(300,40);
+  drawMole(297,330);
 }
 
 //🟢drawExtraDirect Function - custom function created by Ms. Hall
@@ -23,10 +29,8 @@ var drawExtraDirt = function(dirtX, dirtY){
 };
 
 //🟢drawMole Function - custom function created for this lesson
-var drawMole = function() {
-    var moleX = 248;
-    var moleY = 185;
-
+var drawMole = function(moleX, moleY) {
+  
     noStroke();
     fill(125, 93, 43);
     ellipse(moleX, moleY, 60, 60); // face
